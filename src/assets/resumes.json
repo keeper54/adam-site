@@ -1,0 +1,359 @@
+{
+    "personal_info": {
+        "name": "Adam Oliver",
+        "address": "Schertz, TX 78154",
+        "phone": "(763) 482-3027",
+        "email": "adam.carle.oliver@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/adamoliver",
+        "github": "https://github.com/keeper54"
+    },
+    "resumes": [
+    {       
+        "title": "Principal/Staff Frontend Software Engineer",
+        "summary": "Highly accomplished Principal Frontend Software Engineer with 20+ years of experience, specializing in leading the design, development, and evolution of critical enterprise applications. Expert-level proficiency in .NET (C#, ASP.NET Core) and modern UI frameworks (React, Angular). Proven ability to set architectural direction, drive impactful technical decisions, and mentor high-performing engineering teams to deliver scalable, maintainable, and high-performance solutions. Adept at translating complex business needs into robust technical plans and fostering a culture of engineering excellence.",
+        "experience": [
+          {
+            "title": "Application Development Manager",
+            "company": "Continental General Insurance",
+            "location": "Austin, TX - Remote",
+            "start_date": "Apr 2023",
+            "end_date": "Mar 2025",
+            "responsibilities": [
+              "Architected and led the full-stack development of a highly performant internal administration system and customer portal, leveraging React.js for intuitive user interfaces and a robust AWS serverless backend (CDK, CLI, SAM, DynamoDB, S3, Step Functions, Lambdas, API Gateway).",
+              "Maintained a 70% hands-on role in coding and technical architecture, driving CI/CD integration, comprehensive unit testing, and rigorous code reviews, while dedicating 30% to strategic management including 1:1s, resource allocation, and project planning.",
+              "Mentored and developed a team of 5 direct reports, providing technical oversight and guidance to 10+ engineers, fostering a culture of best practices and ensuring high-quality, scalable code delivery.",
+              "Developed responsive React frontends, integrating seamlessly with .NET Core APIs and AWS-backed services to enhance user experience and data persistence.",
+              "Drove engineering team's proficiency in AWS, innovating by building critical developer tooling, code snippets, and robust CI/CD pipelines that significantly improved development velocity and code consistency."
+            ]
+          },
+          {
+            "title": "Lead Developer – Frontend / Lead Consultant",
+            "company": "Magenic / Cognizant",
+            "location": "Minneapolis, MN - Remote",
+            "start_date": "Jun 2016",
+            "end_date": "Mar 2023",
+            "responsibilities": [
+              "Architected and led the development of complex, high-performance SaaS applications, leveraging modern frontend frameworks including React and Angular, alongside C#, TypeScript, and cloud services, ensuring robust and scalable solutions.",
+              "Led and mentored cross-functional teams of up to 15 developers and 10 quality engineers, cultivating a collaborative and high-performing environment focused on technical excellence and continuous improvement.",
+              "Delivered features in many verticals including FinTech, Healthcare, Insurance, and DoD.",
+              "Provided internal technical leadership and mentorship through highly technical presentations on advanced topics such as Redux/React with TypeScript, Angular architecture, and cutting-edge frontend engineering practices, fostering team growth and knowledge sharing."
+            ]
+          },
+          {
+            "title": "Senior Software Engineer",
+            "company": "Solera Hollander",
+            "location": "Plymouth, MN - Remote",
+            "start_date": "Mar 2013",
+            "end_date": "May 2016",
+            "responsibilities": [
+              "Led all UX/UI initiatives, driving the implementation of intuitive and responsive user interfaces through hands-on coding with ASP.NET, .NET MVC, HTML, CSS, AngularJS, and React.",
+              "Owned the technical architecture and codebase for all enterprise UI/UX implementations, standardizing the frontend framework which led to a X% increase in developer productivity and a Y% reduction in UI-related defects."
+            ]
+          },
+          {
+            "title": "Lead UI Engineer",
+            "company": "Creative Memories",
+            "location": "St. Cloud, MN - Hybrid",
+            "start_date": "April 2011",
+            "end_date": "Mar 2013",
+            "responsibilities": [
+              "Led all UX/UI initiatives, including coding in ASP.NET, .NET MVC, HTML, CSS, AngularJS, React.",
+              "Coached and mentored other developers and employees in both AGILE development processes and communications."
+            ]
+          },
+          {
+            "title": "Engineer",
+            "company": "DIGITAL RIVER",
+            "location": "Unknown (not specified, assuming previous hybrid/remote or on-site)",
+            "start_date": "Apr 2007",
+            "end_date": "Apr 2011",
+            "responsibilities": [
+              "Enhanced and furthered architecture for the proprietary CMS.",
+              "Used Java, JSP (Struts), Perl, Scripting, HTML, CSS, XML, XLST, AJAX.",
+              "Led the optimization team for the company's largest client, driving significant improvements in user engagement and conversion rates through strategic A/B and multivariate testing, coupled with in-depth user analytics."
+            ]
+          }
+        ],
+        "skills": {
+          "languages": [
+            "C#",
+            "JavaScript",
+            "TypeScript",
+            "Go (familiar)",
+            "SQL",
+            "CSS",
+            "HTML",
+            "PHP",
+            "XML",
+            "XLST",
+            "AJAX",
+            "Python",
+            "Java (familiar)",
+            "Blazor (familiar)"
+          ],
+          "frameworks": [
+            "React",
+            "Next.js",
+            "GraphQL",
+            "TypeScript",
+            "JavaScript (ES6)",
+            ".NET",
+            ".NET Core",
+            "Node.js",
+            "Angular",
+            ".NET MVC",
+            "TailwindCSS",
+            "MaterialUI",
+            "Bootstrap",
+            "SASS",
+            "LESS",
+            "Express.js",
+            "Ruby (familiar)",
+            "Jest",
+            "Mocha",
+            "Selenium",
+            "Cypress",
+            "Apollo Client"
+          ],
+          "cloud_devops": [
+            "AWS (CDK, CLI, SAM)",
+            "Kubernetes",
+            "Docker",
+            "CI/CD Pipelines",
+            "Github Actions"
+          ],
+          "databases": [
+            "SQL",
+            "Oracle",
+            "MySQL",
+            "PostgreSQL",
+            "DynamoDB",
+            "MongoDB"
+          ],
+          "development_practices": [
+            "Agile (Scrum, Kanban, SAFe)",
+            "TDD",
+            "BDD",
+            "API Design",
+            "AI developer tooling (‘Q’, Gemini, ChatGPT, Grok)",
+            "IaC",
+            "PaaS",
+            "SaaS",
+            "BDD",
+            "Pair programming",
+            "Extreme Programming"
+          ],
+          "tools_platforms": [
+            "Docker",
+            "Kubernetes",
+            "Git",
+            "Jenkins",
+            "Jira",
+            "Microsoft ADO",
+            "Webpack",
+            "Vite",
+            "VS",
+            "VS Code",
+            "AWS",
+            "NPM",
+            "Yarn",
+            "Node",
+            "NVM",
+            "GitHub Actions",
+            "Terraform"
+          ]
+        },
+        "education": [
+          {
+            "institution": "University of the Incarnate Word",
+            "location": "San Antonio, TX",
+            "start_date": "1999",
+            "end_date": "2003",
+            "gpa": "3.5",
+            "notes": "Member of Honor Society"
+          }
+        ]
+    },
+    {
+        "title": "Software Engineering Manager",
+        "summary": "Results-oriented Engineering Manager with 12+ years of experience, including 5+ years in web development and engineering and 2+ years in leadership, adept at guiding remote teams to deliver scalable and high-performance web solutions aligned with product roadmaps.\nProven ability to lead cross-functional teams in an Agile environment, fostering collaboration and ensuring the successful delivery of complex web projects across multiple websites.\nExpert in modern web technologies such as JavaScript, TypeScript, and React, APIs, C#, .NET/.NET Core, cloud-based infrastructures (AWS), and other technologies and frameworks.\nHands-on technical leader with a deep understanding of performance optimization, accessibility (WCAG), SEO best practices, and responsive design, capable of overseeing the development, deployment, and maintenance of web applications.\nExcellent communicator with a track record of mentoring and developing engineering talent, establishing a culture of innovation and continuous improvement within web development teams, and ensuring adherence to high engineering standards.\nExperienced in driving Agile development practices, managing development workflows and CI/CD pipelines, and leveraging data-driven insights to continuously optimize web platforms and enhance user experiences across applications.",
+  "experience": [
+    {
+      "title": "Application Development Manager",
+      "company": "Continental General Insurance",
+      "location": "Austin, TX - Remote",
+      "start_date": "Apr 2023",
+      "end_date": "Mar 2025",
+      "responsibilities": [
+        "Led the development of a customer portal utilizing React.js and AWS services (including serverless technologies like Lambda and Step Functions), enhancing user experience and aligning with modern web development practices.",
+        "Oversaw technical execution for a team of 5 direct reports and provided technical guidance to 10+ engineers, ensuring high-quality code through CI/CD integration, unit testing, code reviews, and adherence to coding standards.",
+        "Drove Agile transformation within the engineering team, delivering projects on time and improving development workflows, fostering a culture of continuous improvement.",
+        "Enhanced the engineering team's proficiency in AWS and built developer tooling to improve efficiency and streamline web development processes.",
+        "Actively participated in hands-on coding and architecture (70% of the role), demonstrating a strong technical foundation in modern web technologies"
+      ]
+    },
+    {
+      "title": "Lead Developer / Lead Consultant",
+      "company": "Magenic / Cognizant",
+      "location": "Minneapolis, MN - Remote",
+      "start_date": "Jun 2016",
+      "end_date": "Mar 2023",
+      "responsibilities": [
+        "Led engineering teams of up to 15 developers, fostering a collaborative and high-performing environment focused on delivering complex SaaS applications utilizing modern web technologies like Typescript, JavaScript, React, Angular, and cloud services.",
+        "Planned, architected, and delivered projects across various verticals, demonstrating the ability to understand business needs and translate them into scalable web solutions",
+        "Provided technical leadership and mentorship on front-end engineering topics such as React with Typescript and Angular architecture, showcasing a passion for developing engineering talent.",
+        "Built strong client relationships, demonstrating excellent communication and collaboration skills necessary for working with cross-functional teams and stakeholders."
+      ]
+    },
+    {
+      "title": "Senior Software Engineer",
+      "company": "Solera Hollander",
+      "location": "Plymouth, MN - Remote",
+      "start_date": "Mar 2013",
+      "end_date": "May 2016",
+      "responsibilities": [
+        "Delivered on collaborative project with eBay to connect automotive recycling yards with buyers using an eBay API, creating a new revenue stream.",
+        "Collaborated with IT leaders to refine the Agile process and coached peers in agile methodologies, helping transform our delivery with 25% fewer defects and an increase in delivery velocity.",
+        "Successfully led small team of developers in converting legacy VB application to cloud-based model using .NET, AngularJS, and C#."
+      ]
+    },
+    {
+      "title": "Lead UI Engineer",
+      "company": "Creative Memories",
+      "location": "St. Cloud, MN - Hybrid",
+      "start_date": "April 2011",
+      "end_date": "Mar 2013",
+      "responsibilities": [
+        "Functioned as a bridge between business and technical stakeholders with superb communication skills.",
+        "Led all UX/UI initiatives, reaching consensus on culturally sensitive internal issues with multiple departments in a timely manner, accelerating delivery.",
+        "Utilized .NET MVC, Entity Framework, AngularJS, HTML, CSS",
+        "Led several large changes to the traditional development model the company had followed, increasing ROI per developer while reducing technical debt.",
+        "Coached and mentored other developers and employees in both AGILE development processes and communications."
+      ]
+    },
+    {
+      "title": "City Council Member",
+      "company": "Becker, MN",
+      "location": "",
+      "start_date": "2012",
+      "end_date": "2016",
+      "responsibilities": [
+        "Led multiple commissions within the city, including police, fire, planning, and public works committees.",
+        "Lobbied at the state capital for city initiatives.",
+        "Led task force reviewing the city’s golf course operations, identifying common ground among parties and building towards delivery of a 5-to-10-year plan utilizing a scalable approach"
+      ]
+    },
+    {
+      "title": "Engineer",
+      "company": "DIGITAL RIVER",
+      "location": "",
+      "start_date": "Apr 2007",
+      "end_date": "Apr 2011",
+      "responsibilities": [
+        "Enhance and furthered architecture for the proprietary CMS.",
+        "Used Java, JSP (Struts), Perl, Scripting, HTML, CSS, XML, XLST, AJAX",
+        "Led the optimization team responsible for the company’s largest client, utilizing A/B testing and multi-variate testing."
+      ]
+    }
+  ],
+  "skills": {
+    "languages": [
+      "C#",
+      "JavaScript",
+      "TypeScript",
+      "Go (familiar)",
+      "SQL",
+      "CSS",
+      "HTML",
+      "PHP",
+      "XML",
+      "XLST",
+      "AJAX",
+      "Python"
+    ],
+    "frameworks": [
+      "React",
+      ".NET",
+      ".NET Core",
+      "Node.js",
+      "GraphQL",
+      "Angular",
+      ".NET MVC",
+      "Tailwind",
+      "MaterialUI",
+      "Bootstrap",
+      "Next.js",
+      "Express.js",
+      "Ruby (familiar)",
+      "Jest",
+      "Mocha",
+      "Selenium"
+    ],
+    "cloud_devops": [
+      "AWS (CDK, CLI, SAM)",
+      "Kubernetes",
+      "Docker",
+      "CI/CD Pipelines"
+    ],
+    "databases": [
+      "SQL",
+      "Oracle",
+      "MySQL",
+      "PostgreSQL",
+      "DynamoDB",
+      "MongoDB"
+    ],
+    "development_practices": [
+      "Engineering Team Management (Hiring, Performance Reviews, Career Development)",
+      "Agile / SAFe Leadership (Scrum, Kanban, DevOps)",
+      "Cross-functional Collaboration (Product, Design, Business Stakeholders)",
+      "Technical Strategy & Roadmap Planning",
+      "Enhanced and furthered architecture for the proprietary CMS.",
+      "Cloud Architecture (AWS, Serverless, Kubernetes, Docker)",
+      "Scalable System Design & Microservices",
+      "CI/CD Pipelines & DevOps Automation",
+      "Agile & SAFe (Scrum, Kanban, Lean)",
+      "Technical Coaching & Mentorship",
+      "Code Quality and Security Best Practices",
+      "TDD",
+      "BDD",
+      "API Design",
+      "AI developer tooling (‘Q’, Gemini, ChatGPT, Grok)",
+      "IaC",
+      "PaaS",
+      "SaaS",
+      "Pair programming",
+      "Extreme Programming"
+    ],
+    "tools_platforms": [
+      "Docker",
+      "Kubernetes",
+      "Git",
+      "Jenkins",
+      "Jira",
+      "Microsoft ADO",
+      "Webpack",
+      "Vite",
+      "VS",
+      "VS Code",
+      "AWS",
+      "NPM",
+      "Node",
+      "NVM",
+      "GitHub Actions",
+      "Terraform"
+    ]
+  },
+  "education": [
+    {
+      "institution": "University of the Incarnate Word",
+      "location": "San Antonio, TX",
+      "start_date": "1999",
+      "end_date": "2003",
+      "gpa": "3.5",
+      "notes": "Member of Honor Society"
+    }
+  ]
+    }
+]
+}
