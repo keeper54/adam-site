@@ -1,0 +1,46 @@
+a.resumeLink {
+    color: #1976d2;
+    text-decoration: none;
+}
+
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+  color:white;
+}
+.embla__slide {
+  flex: 0 0 100%; /* Default slide covers 100% of the viewport */
+}
+@media (min-width: 768px) {
+  .embla__slide {
+    flex: 0 0 50%; /* Breakpoint SM slide covers 50% of the viewport */
+  }
+}
+.projectImage {
+    max-width: 350px;
+    border-radius: 8px;
+}
+
+.project-list {
+  color:white;
+  max-width: 800px;
+  text-align:left;
+  margin:0 auto;
+}
+.project-image {
+  max-width:500px;
+  border-radius:8px;
+
+}
+
+.project-detail-image {
+  width: fit-content;
+  max-width:100%;
+  border-radius:8px;
+}

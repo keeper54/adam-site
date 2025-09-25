@@ -22,16 +22,17 @@ const theme = createTheme({
   },
   typography: {
     fontFamily: [
-      'Inter',
+      'Arial',
       'Roboto',
       'Open Sans',
-      'Arial',
+      'Inter',
       'sans-serif',
     ].join(','),
-    h1: { fontWeight: 700, fontSize: '2.5rem', letterSpacing: '-1px' },
-    h2: { fontWeight: 600, fontSize: '2rem' },
+    h1: { fontWeight: 700, fontSize: '2.0rem', letterSpacing: '-1px' },
+    h2: { fontWeight: 600, fontSize: '1.8rem' },
     h3: { fontWeight: 500, fontSize: '1.5rem' },
-    body1: { fontSize: '1.1rem' },
+    h4: { fontWeight: 500, fontSize: '1.2rem' },
+    body1: { fontSize: '1.rem' },
   },
   shape: {
     borderRadius: 12,
@@ -40,8 +41,8 @@ const theme = createTheme({
     MuiAppBar: {
       styleOverrides: {
         root: {
-          backgroundColor: '#D3D3D3',
-          color: '#223354',
+          backgroundColor: '#ffffff',
+          color: '#000000',
           boxShadow: '0 2px 8px rgba(34,51,84,0.04)',
         },
       },
@@ -55,11 +56,13 @@ const theme = createTheme({
           boxShadow: 'none',
         },
         containedPrimary: {
-          backgroundColor: '#223354',
-          color: '#fff',
-          '&:hover': {
-            backgroundColor: '#4F8A8B',
-          },
+          backgroundColor: 'white',
+          color: 'black',
+          '&:hover': { backgroundColor: 'lightgray' },
+          padding: '1rem 1rem',
+          margin: '.5rem 0',
+          display: 'inline-block'
+
         },
         outlinedPrimary: {
           borderColor: '#223354',
@@ -88,6 +91,28 @@ const theme = createTheme({
             textDecoration: 'underline',
             color: '#223354',
           },
+        },
+      },
+    },
+    MuiCard: {
+      styleOverrides: {
+        root: {
+          // Styles for the root Card element
+          backgroundColor: '#f0f0f0',
+          borderRadius: 8,
+          border: '1px solid #000000',
+          boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.1)',
+          mt: 2,
+          padding: '0.5rem 0.5rem',
+        }
+      },
+    },
+    MuiCardHeader: {
+      styleOverrides: {
+        root: {
+          backgroundColor: '#ffffff',
+          color: '#000000',
+          padding: '0.5rem 0.5rem',
         },
       },
     },

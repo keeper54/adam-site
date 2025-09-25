@@ -1,92 +1,107 @@
-import { Box, Typography, Paper, Button, Link } from '@mui/material';
-
+import { Box, Typography, Button, Chip, Container, Grid, Stack, IconButton,  CardHeader } from '@mui/material';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import skills from '../assets/data/skills.json';
+import { Link } from 'react-router-dom';
 const HomePage = () => {
+
+  
     return (
-        <>
-        <Box
-        sx={{
-          p: 4,
-          textAlign: 'center',
-          bgcolor: 'primary.light',
-          color: 'primary.contrastText',
-          minHeight: '40vh',
-          display: 'flex',
-          maxWidth: '90%',
-          margin: '0 auto',
-          backgroundImage: 'url(/assets/coding.jpg)',
-          borderRadius: 2,
-          boxShadow: 2,
-          border: '1px solid #ccc',
-          backgroundColor: 'white',
-          backgroundOpacity: 0.25,
-          flexDirection: 'column',
-          justifyContent: 'center',
-        }}
-        role="main"
-      >
-        <Box sx={{ 
-          color: 'primary.main',
-          justifyContent: 'center',
-          maxWidth: '90%',
-          margin: '0 auto',
-          p: 4,
-          borderRadius: 2,
-          boxShadow: 2,
-          border: '1px solid #ccc',
-          backgroundColor: '#D3D3D3'
-           }}>
-        <Typography variant="h1">Adam Oliver</Typography>
-        <Typography variant="h3">Software Engineering Leader</Typography>
-        <Typography variant="h5">Craftsmanship, Innovation, and Excellence</Typography>
-        </Box>
-        </Box>
-        <Box sx={{ p: 4, bgcolor: 'background.default' }}>
-        <Typography variant="h4" sx={{ mb: 2 }}>
-            Recent Personal Projects
-        </Typography>
-        <Paper elevation={3} sx={{ p: 3, mb: 3 }}>
-            <Typography variant="h6" color="primary" sx={{ mb: 1 }}>Project One</Typography>
-            <Typography variant="body1">
-            Details about project one. This text uses the primary text color.
+      <Grid container spacing={0}>
+        <Grid size={12} sx={{textAlign: 'center'}}>
+          <Box
+            sx={{
+              
+              display: 'flex',
+              flexDirection: 'column',
+              justifyContent: 'center',
+              alignItems: 'center',
+              color: 'white',
+              textAlign: 'center',
+              p: 4,
+            }}
+          >
+            <Typography variant="h2" component="h1" gutterBottom sx={{ textShadow: '2px 2px 4px rgba(0,0,0,0.7)' }}>
+              Staff Software Engineer
             </Typography>
-        </Paper>
-        <Paper elevation={3} sx={{ p: 3, mb: 3 }}>
-            <Typography variant="h6" color="primary" sx={{ mb: 1 }}>Project Two</Typography>
-            <Typography variant="body1">
-            Details about project two. Another example of content.
+            <Typography variant="h5" sx={{ mb: 4, textShadow: '1px 1px 3px rgba(0,0,0,0.7)' }}>
+              Building scalable, performant, and accessible solutions and architecture
             </Typography>
-        </Paper>
-        </Box>
-        <Box sx={{ p: 4, bgcolor: 'background.default' }}>
-        <Typography variant="h4" sx={{ mb: 2 }}>
-          Recent Personal Projects
-        </Typography>
-        <Paper elevation={3} sx={{ p: 3, mb: 3 }}>
-          <Typography variant="h6" color="primary" sx={{ mb: 1 }}>Project One</Typography>
-          <Typography variant="body1">
-            Details about project one. This text uses the primary text color.
-          </Typography>
-        </Paper>
-        <Paper elevation={3} sx={{ p: 3, mb: 3 }}>
-          <Typography variant="h6" color="primary" sx={{ mb: 1 }}>Project Two</Typography>
-          <Typography variant="body1">
-            Details about project two. Another example of content.
-          </Typography>
-        </Paper>
-        </Box>
-        <Box sx={{ p: 4, bgcolor: 'primary.light', color: 'primary.contrastText' }}>
-            <Typography variant="h4" sx={{ mb: 2 }}>
-              Get in Touch
-            </Typography>
-            <Typography variant="body1" sx={{ mb: 2 }}>
-              Feel free to <Link href="#" color="inherit">contact me</Link> for more information.
-            </Typography>
-            <Button variant="outlined" color="primary" sx={{ color: 'primary.contrastText', borderColor: 'primary.contrastText' }}>
-              Email Me
+
+
+            <Button component={Link} to="/resume"
+            variant="contained" sx={{margin: '.5rem auto', width: '40%', textAlign: 'center'
+            }}>
+              View my Resume
             </Button>
-        </Box>
-        </>
+            <Button component={Link} to="/projects"
+            variant="contained" sx={{margin: '.5rem auto', width: '40%', textAlign: 'center'
+            }}>
+              Portfolio
+            </Button>
+            <Button href="mailto:adam.carle.oliver@gmail.com"
+            rel="noopener noreferrer" // Recommended for security
+            target="_blank"
+            variant="contained" sx={{margin: '.5rem auto', width: '40%', textAlign: 'center', display: 'inline-block'
+            }}>
+              Contact Me
+            </Button>
+            
+          </Box>
+
+
+          <Box sx={{ py: 8, backgroundColor: 'white', color: 'black' }}>
+            <Container maxWidth="md">
+                  <Typography variant="body1" textAlign={'left'} paragraph>
+                    As a Senior-level Software Engineer, I specialize in designing and implementing high-performance, scalable, and resilient software systems. My passion lies in solving complex technical challenges and leading cross-functional teams to deliver exceptional products.
+                  </Typography>
+                  {/* More paragraphs here */}
+              <Grid container alignItems="left">
+                      {Object.entries(skills).map(([category, skills], i) => (
+                        <Grid size={{sm:12, xs:12, md:4, lg:12}} sx={{ textAlign: 'left', justifyContent: 'left'}} key={i}>
+                          <CardHeader key={category} title={category} />
+                          <Stack direction="row" flexWrap="wrap" spacing={0} sx={{justifyContent: 'left'}}>
+                          {skills.map((skill) => (
+                              <Chip key={skill} label={skill} variant="outlined" sx={{ borderColor: 'gray', color: 'black'}} />
+                            ))}
+                          </Stack>
+                        </Grid>
+                        ))
+                    }
+              </Grid>
+            </Container>
+          </Box>  
+          <Box sx={{ py: 8, backgroundColor: 'black', color: 'white' }}>
+    <Container maxWidth="md">
+      <Typography variant="h3" component="h2" align="center" gutterBottom sx={{ mb: 6 }}>
+        Get in Touch
+      </Typography>
+      <Grid container spacing={4} justifyContent="center">
+        <Grid size={{sm:12, xs:12, md:6}} sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+          <Typography variant="h6" gutterBottom>
+            Find me on:
+          </Typography>
+          <Box>
+            <IconButton sx={{ color: 'white', '&:hover': { color: 'gray' } }}>
+              <GitHubIcon fontSize="large" href="https://github.com/keeper54" target="_blank" />
+            </IconButton>
+            <IconButton sx={{ color: 'white', '&:hover': { color: 'gray' } }}>
+              <LinkedInIcon fontSize="large" href="https://www.linkedin.com/in/adamoliver/" target="_blank" />
+            </IconButton>
+          </Box>
+          <Typography variant="body1" sx={{ mt: 2 }}>
+              adam.carle.oliver@gmail.com
+          </Typography>
+        </Grid>
+      </Grid>
+    </Container>
+    
+          </Box>    
+        </Grid>
+      </Grid>
     )
-}
+  
+  }
+
 
 export default HomePage;

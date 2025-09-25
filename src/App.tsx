@@ -5,7 +5,6 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import Box from '@mui/material/Box';
-import MenuIcon from '@mui/icons-material/Menu';
 import IconButton from '@mui/material/IconButton';
 import Drawer from '@mui/material/Drawer';
 import List from '@mui/material/List';
@@ -14,19 +13,19 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
-
 // Import your page components
 import ProjectsPage from './pages/ProjectsPage';
 import ResumePage from './pages/ResumePage';
-import WhitepapersPage from './pages/WhitepapersPage';
 import HomePage from './pages/HomePage';
+import Container from '@mui/material/Container';
+import MenuIcon from '@mui/icons-material/Menu';
 
 const navLinks = [
-  { label: 'Projects', path: '/projects' },
   { label: 'Resume', path: '/resume' },
-  { label: 'Whitepapers', path: '/whitepapers' },
+  /*{ label: 'Whitepapers', path: '/whitepapers' },*/
+  {label: 'Projects', path: '/projects' }
 ];
-
+document.title = "Adam Oliver - Software Engineer";
 function App() {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('md'));
@@ -35,7 +34,7 @@ function App() {
   return (
     <>
      <Router>
-      <Box>
+      <Box sx={{ background: '#000000', p:1 }}>
         <AppBar position="static" elevation={0} component="nav" aria-label="Main navigation">
           <Toolbar sx={{ justifyContent: 'space-between' }}>
             <Typography variant="h6" component={RouterLink} to="/" sx={{ fontWeight: 700, textDecoration: 'none', color: 'inherit' }}>
@@ -93,18 +92,20 @@ function App() {
 
         {/* Main content area */}
         <Routes>
+          <Route path="/projects/:shortName" element={<ProjectsPage   />} />
           <Route path="/projects" element={<ProjectsPage   />} />
           <Route path="/resume" element={<ResumePage />} />
-          <Route path="/whitepapers" element={<WhitepapersPage />} />
           <Route path="/" element={<HomePage />} />
           <Route  path="" element={<HomePage />} />
         </Routes>
       </Box>
     </Router>
-    <Box sx={{ p: 2, bgcolor: 'primary.main', color: 'white', textAlign: 'center' }} component="footer">
-        <Typography variant="body2">
-          © 2025 My Website. All rights reserved.
-        </Typography> 
+    <Box sx={{ py: 1, backgroundColor: 'black', color: 'white', textAlign: 'center' }}>
+      <Container maxWidth="lg">
+        <Typography variant="body2" component="p">
+          &copy; {new Date().getFullYear()} Adam Oliver. All rights reserved.
+        </Typography>
+      </Container>
     </Box>
 
     </>
