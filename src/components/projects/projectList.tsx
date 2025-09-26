@@ -43,7 +43,7 @@ const ProjectList: React.FC<ProjectListProps> = (props: ProjectListProps) => {
                             onClick={() => window.open(project?.url ?? '', '_blank')}
                             sx={{ m:2}}
                             >
-                            Hosted at {project?.url}
+                            Hosted Site
                         </Button>
                     )}                          
                     <RouterLink to={`/projects/${encodeURIComponent(project.shortName)}`}>
