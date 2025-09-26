@@ -44,7 +44,7 @@ function App() {
         color:'white' }}>
           <Toolbar sx={{ justifyContent: 'space-between' }}>
             <Typography variant="h6" component={RouterLink} to="/" sx={{ fontWeight: 700, textDecoration: 'none', color: 'inherit' }}>
-              Adam Oliver
+                          <img src="/assets/adam-logo.png" alt="Logo" style={{ height: 80 }} />
             </Typography>
             {isMobile ? (
               <>
