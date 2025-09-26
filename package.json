@@ -7,7 +7,6 @@
     "dev": "vite",
     "prebuild": "node -e \"require('fs').cpSync('src/assets','public/assets',{ recursive: true })\"",
     "build": "npm run prebuild && tsc -b && vite build",
-    "postbuild": "node ./scripts/zipDist.js",
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "jest"
