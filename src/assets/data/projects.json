@@ -86,7 +86,7 @@
     {
       "shortName": "2 Day Postcards",
       "image": "/assets/portfolio/2day.gif",
-      "longName": "Online store for postcards, greeting cards, etc",
+      "longName": "Site created for online printer, 2daypostcards.com",
       "url": "https://www.2daypostcards.com",
       "githubUrl": "",
       "summary": "2daypostcards had a rudimentary design in place for their e-commerce site. They contacted me to design a website using the same content and structure in a more visually appealing manner. This would help make the site more appealing to a wide variety of clients, with the intent of keeping people at the site, thereby increasing sales. I created this site using nothing but CSS to control the graphics. Special attention was paid to cross-browser compatibility, so that the website looks the same in firefox, internet explorer, opera, and safari. Its estimated that sales increased at a steady rate of about 8% monthly since the projects inception. The site was my first crack at creating a custom template for CubeCart, an out of the box e-commerce solution perfect for small businesses who don't have the means to create a custom online store. Through the use of CSS and custom design work I was able to do exactly what was wanted, and achieve the clients goals.",
