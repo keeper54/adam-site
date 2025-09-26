@@ -3,7 +3,7 @@
 
     {
       "shortName": "Music Player",
-      "image": "./assets/portfolio/music-player.png",
+      "image": "/assets/portfolio/music-player.png",
       "longName": "MUI music player integration with iTunes",
       "url": "",
       "githubUrl": "https://github.com/keeper54/music-player",
@@ -18,7 +18,7 @@
     },
     {
       "shortName": "Creative Memories",
-      "image": ".assets/portfolio/creative-memories-screenshot.png",
+      "image": "/assets/portfolio/creative-memories-screenshot.png",
       "longName": "E-commerce and consultant sales support for Creative Memories",
       "url": "https://www.creativememories.com/",
       "githubUrl": "",
@@ -39,7 +39,7 @@
       "image": "/assets/portfolio/user-dashboard-list.png",
       "longName": "Security Interview Coding Challenge",
       "url": "",
-      "githubUrl": "",
+      "githubUrl": "https://github.com/keeper54/user-management",
       "summary": "The result of a coding challenge for a staff engineer position. An Express server with a react front-end rendering a user management grid.",
       "techStack": [
         "React",
@@ -67,26 +67,10 @@
       ]
     },
     {
-      "shortName": "Gen AI - job search",
-      "image": "/assets/portfolio/job-aid.png",
-      "longName": "Generative AI to deconstruct Job Descriptions",
-      "url": null,
-      "githubUrl": "https://github.com/keeper54/job-aid",
-      "summary": "A web application that leverages Generative AI to help users better understand job descriptions. By inputting a job description, the app breaks down the key responsibilities, required skills, and qualifications, providing users with a clearer understanding of what employers are looking for. This tool is particularly useful for job seekers aiming to tailor their resumes and cover letters to specific roles.",
-      "techStack": [
-        "React",
-        "Node.js",
-        "Express",
-        "MUI",
-        "Jest",
-        "GenAI API"
-      ]
-    },
-    {
       "shortName": "Norton Antivius Online Store",
       "image": "/assets/portfolio/norton-screenshot.png",
       "longName": "Online store created while with Digital River for Norton Antivius",
-      "url": null,
+      "url": "",
       "githubUrl": "",
       "summary": "A robust global e-commerce platform developed for Norton Antivirus, enabling customers to easily browse, select, and purchase antivirus software and related products online. The online store features a secure shopping cart, multiple payment options, and a streamlined checkout process to enhance the user experience. Additionally, the platform is integrated with Norton’s inventory and customer management systems to ensure accurate product availability and efficient order fulfillment.",
       "techStack": [
@@ -134,7 +118,7 @@
       "shortName": "Auto Insurance Sales",
       "image": "/assets/portfolio/aaa-insurance-screenshot.png",
       "longName": "Insurance sales site, multi-locale, AAA So-Cal",
-      "url": "",
+      "url": "https://app.ace.aaa.com/insurance/auto/olb/contact/name/",
       "githubUrl": "",
       "summary": "While consulting, I had the opportunity to work on the AAA So-Cal auto insurance (via Club Labs) sales site. I was the techinical lead and SME for the effort. The site was a success and helped increase sales for AAA So-Cal.",
       "techStack": [

@@ -4,48 +4,25 @@
       "C#",
       "JavaScript",
       "TypeScript",
-      "Go",
       "SQL",
       "CSS",
       "HTML",
       "PHP",
-      "XML",
-      "XLST",
-      "AJAX",
-      "Python",
-      "Java",
-      "Blazor"
+      "Python"
     ],
     "Frameworks": [
       "React",
+      "Angular",
       "Next.js",
       "GraphQL",
-      "TypeScript",
-      "JavaScript (ES6)",
-      ".NET",
       ".NET Core",
-      "Node.js",
-      "Angular",
-      ".NET MVC",
       "TailwindCSS",
       "MaterialUI",
       "Bootstrap",
-      "SASS",
-      "LESS",
-      "Express.js",
-      "Ruby",
-      "Jest",
-      "Mocha",
-      "Selenium",
-      "Cypress",
-      "Apollo Client"
+      "Express.js"
     ],
-    "Cloud & DevOps": [
-      "AWS",
-      "CDK",
-      "CLI",
-      "SAM",
-      "Kubernetes",
+    "CloudOps": [
+      "AWS CDK",
       "Docker",
       "CI/CD Pipelines",
       "Github Actions"
@@ -58,42 +35,23 @@
       "DynamoDB",
       "MongoDB"
     ],
-    "Development Practices": [
+    "Methods": [
       "Agile",
       "Scrum",
       "Kanban",
       "SAFe",
       "TDD",
       "BDD",
-      "API Design",
+      "API Design"
+    ],
+    "AI": [
       "AI developer tooling",
       "Q",
       "Gemini",
       "ChatGPT",
       "Grok",
-      "IaC",
-      "PaaS",
-      "SaaS",
-      "Pair programming",
-      "Extreme Programming"
-    ],
-    "Tools & Platforms": [
-      "Docker",
-      "Kubernetes",
-      "Git",
-      "Jenkins",
-      "Jira",
-      "Microsoft ADO",
-      "Webpack",
-      "Vite",
-      "VS",
-      "VS Code",
-      "AWS",
-      "NPM",
-      "Yarn",
-      "Node",
-      "NVM",
-      "GitHub Actions",
-      "Terraform"
+      "CursorAI",
+      "Claude"
+
     ]
   }

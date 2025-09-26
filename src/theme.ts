@@ -54,24 +54,14 @@ const theme = createTheme({
           fontWeight: 600,
           borderRadius: 8,
           boxShadow: 'none',
-        },
-        containedPrimary: {
-          backgroundColor: 'white',
-          color: 'black',
-          '&:hover': { backgroundColor: 'lightgray' },
-          padding: '1rem 1rem',
-          margin: '.5rem 0',
-          display: 'inline-block'
-
-        },
-        outlinedPrimary: {
-          borderColor: '#223354',
-          color: '#223354',
-          '&:hover': {
-            borderColor: '#4F8A8B',
-            backgroundColor: '#f5f7fa',
-          },
-        },
+             background: 'transparent',
+            color:'white',
+            border: '2px solid white',
+            "&:hover": {
+              backgroundColor: 'rgba(255, 255, 255, 0.3)',
+              borderColor: 'white',
+            },
+       },
       },
     },
     MuiPaper: {

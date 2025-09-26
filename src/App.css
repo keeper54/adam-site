@@ -1,8 +1,34 @@
+
+
+
+/* Page background (uses src/assets/starfield.png) */
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  /* Use the starfield image from src/assets; relative to this file (src/) */
+  background-image: url('./assets/starfield.png');
+  background-size: cover; /* scale to cover the viewport while preserving aspect */
+  background-position: center center; /* keep the focal point centered */
+  background-repeat: repeat-y;
+  background-attachment: scroll; /* avoid fixed for better mobile performance */
+}
+.resumeDivider {
+  color:black;
+  font-weight: bold;
+}
+.fullPage {
+  min-height: 100vh; /* Ensure it covers the full viewport height */
+  display: flex;
+  flex-direction: column;
+  max-width: 1024px;
+  margin:0 auto;
+}
 a.resumeLink {
     color: #1976d2;
     text-decoration: none;
 }
-
 .embla {
   overflow: hidden;
 }
@@ -13,6 +39,7 @@ a.resumeLink {
   flex: 0 0 100%;
   min-width: 0;
   color:white;
+  margin: 0 15px;
 }
 .embla__slide {
   flex: 0 0 100%; /* Default slide covers 100% of the viewport */

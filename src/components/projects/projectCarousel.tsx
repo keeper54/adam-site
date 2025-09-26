@@ -18,6 +18,7 @@ const ProjectCarousel: React.FC = () => {
 
 	const projects: IProject[] = (projectsData as any).projects || []
 
+	
 	useEffect(() => {
 		// Start autoplay when embla api is ready
 		if (emblaApi) {
@@ -51,7 +52,6 @@ const ProjectCarousel: React.FC = () => {
 						<Typography variant="body1" sx={{ mt: 1 }} className="projectSummary">
 							{project.summary.length > 160 ? `${project.summary.slice(0, 157)}...` : project.summary}
 						</Typography>
-
 					</Box>
 				))}
 			</Box>

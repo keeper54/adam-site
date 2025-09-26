@@ -1,4 +1,4 @@
-import { Grid, Typography } from '@mui/material';
+import { Divider, Grid, Typography } from '@mui/material';
 import { useParams } from 'react-router-dom';
 import projectsData from '../assets/data/projects.json';
 import ProjectCarousel from '../components/projects/projectCarousel';
@@ -9,8 +9,8 @@ const ProjectsPage = () => {
 const { shortName } = useParams<{ shortName?: string }>() ?? null;
 console.log('shortName from params:', shortName);
         return (
-            <Grid container spacing={0}>
-                <Grid size={12} sx={{textAlign: 'center'}}>
+            <Grid container spacing={0}>dd
+                <Grid size={12} sx={{textAlign: 'center',background:'transparent'}}>
                     
                 {
                     shortName ? (
@@ -19,9 +19,9 @@ console.log('shortName from params:', shortName);
                         </>
                     ) : (
                         <>
-                        <Typography variant="h3" sx={{ textAlign: 'center', p: 2, color: 'white' }}>Projects</Typography>
+                        <Typography variant="h2" sx={{ textAlign: 'center', p: 2, color: 'white',textShadow: '2px 2px 4px rgba(256, 256, 256, 0.7)'  }}>Portfolio and Projects</Typography>
                         <ProjectCarousel />
-                        <hr />
+                        <Divider sx={{'width':'90%', backgroundColor: 'white', 'margin':'0px auto'}}/>
                         <ProjectList projectList={projectsData.projects} />
                         </>
                     )

@@ -24,6 +24,8 @@ dist/
 *.sln
 *.sw?
 
+scripts
+scripts/*
 dist.zip
 *.code-workspace
 # Dependency directories

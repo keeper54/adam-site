@@ -1,6 +1,6 @@
 import React from "react";
 import { IProject } from "../../types/projectTypes";
-import { Button, Chip, Grid, Typography } from "@mui/material";
+import { Button, Chip, Divider, Grid, Typography } from "@mui/material";
 import { Link as RouterLink } from 'react-router-dom';
 
 interface ProjectListProps {
@@ -15,9 +15,10 @@ const ProjectList: React.FC<ProjectListProps> = (props: ProjectListProps) => {
     return (
         <div className="project-list">
             {props.projectList.map((project) => (
-                            <Grid container spacing={1} size={12} sx={{ p:2, textAlign: 'left', color: 'white' }}>
+        <>
+            <Grid container spacing={1} size={12} sx={{ p:2, textAlign: 'left', color: 'white' }}>
                 <Grid size={{ xs:12, sm: 12, md: 12, lg: 12 }}>
-                    <Typography variant="h5">{project?.shortName}</Typography>
+                    <Typography variant="h5" sx={{textShadow: '2px 2px 4px rgba(256, 256, 256, 0.7)' }}>{project?.shortName}</Typography>
                 </Grid>
                 <Grid size={{ xs:12, sm: 12, md: 12, lg: 4 }}>
                    <img src={project?.image} alt={project?.shortName} className="project-detail-image"/>
@@ -55,14 +56,16 @@ const ProjectList: React.FC<ProjectListProps> = (props: ProjectListProps) => {
                     </RouterLink>
 
                 </Grid>
-            <Grid size={{ xs:12, sm: 12, md: 12, lg: 12 }} textAlign={'left'}>
-                <Typography variant="body1">{project?.summary}</Typography>
+                <Grid size={{ xs:12, sm: 12, md: 12, lg: 12 }} textAlign={'left'}>
+                    <Typography variant="body1">{project?.summary}</Typography>
+                </Grid>
             </Grid>
-            <Grid size={{ xs:12, sm: 12, md: 12, lg: 12 }} textAlign={'left'}>
-                <hr/>
-            </Grid>
-        </Grid>
-            ))}
+        <Divider sx={{'width':'100%', backgroundColor: 'white', 'margin':'10px auto'}}/>
+        <Typography variant="h2" sx={{ 
+                textShadow: '2px 2px 4px rgba(256, 256, 256, 0.7)' 
+                }}></Typography>
+        </>
+))}
         </div>
     );
 };
