@@ -1,0 +1,178 @@
+{
+    "personal_info": {
+        "name": "Adam Oliver",
+        "address": "Schertz, TX 78154",
+        "phone": "(763) 482-3027",
+        "email": "adam.carle.oliver@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/adamoliver",
+        "github": "https://github.com/keeper54"
+    },
+    "resumes": [
+    {       
+        "title": "Principal/Staff Frontend Software Engineer",
+        "summary": "Highly accomplished Principal Frontend Software Engineer with 20+ years of experience, specializing in leading the design, development, and evolution of critical enterprise applications. Expert-level proficiency in .NET (C#, ASP.NET Core) and modern UI frameworks (React, Angular). Proven ability to set architectural direction, drive impactful technical decisions, and mentor high-performing engineering teams to deliver scalable, maintainable, and high-performance solutions. Adept at translating complex business needs into robust technical plans and fostering a culture of engineering excellence.",
+        "experience": [
+          {
+            "title": "Application Development Manager",
+            "company": "Continental General Insurance",
+            "location": "Austin, TX - Remote",
+            "start_date": "Apr 2023",
+            "end_date": "Mar 2025",
+            "responsibilities": [
+              "Architected and led the full-stack development of a highly performant internal administration system and customer portal, leveraging React.js for intuitive user interfaces and a robust AWS serverless backend (CDK, CLI, SAM, DynamoDB, S3, Step Functions, Lambdas, API Gateway).",
+              "Maintained a 70% hands-on role in coding and technical architecture, driving CI/CD integration, comprehensive unit testing, and rigorous code reviews, while dedicating 30% to strategic management including 1:1s, resource allocation, and project planning.",
+              "Mentored and developed a team of 5 direct reports, providing technical oversight and guidance to 10+ engineers, fostering a culture of best practices and ensuring high-quality, scalable code delivery.",
+              "Developed responsive React frontends, integrating seamlessly with .NET Core APIs and AWS-backed services to enhance user experience and data persistence.",
+              "Drove engineering team's proficiency in AWS, innovating by building critical developer tooling, code snippets, and robust CI/CD pipelines that significantly improved development velocity and code consistency."
+            ]
+          },
+          {
+            "title": "Lead Developer – Frontend / Lead Consultant",
+            "company": "Magenic / Cognizant",
+            "location": "Minneapolis, MN - Remote",
+            "start_date": "Jun 2016",
+            "end_date": "Mar 2023",
+            "responsibilities": [
+              "Architected and led the development of complex, high-performance SaaS applications, leveraging modern frontend frameworks including React and Angular, alongside C#, TypeScript, and cloud services, ensuring robust and scalable solutions.",
+              "Led and mentored cross-functional teams of up to 15 developers and 10 quality engineers, cultivating a collaborative and high-performing environment focused on technical excellence and continuous improvement.",
+              "Delivered features in many verticals including FinTech, Healthcare, Insurance, and DoD.",
+              "Provided internal technical leadership and mentorship through highly technical presentations on advanced topics such as Redux/React with TypeScript, Angular architecture, and cutting-edge frontend engineering practices, fostering team growth and knowledge sharing."
+            ]
+          },
+          {
+            "title": "Senior Software Engineer",
+            "company": "Solera Hollander",
+            "location": "Plymouth, MN - Remote",
+            "start_date": "Mar 2013",
+            "end_date": "May 2016",
+            "responsibilities": [
+              "Led all UX/UI initiatives, driving the implementation of intuitive and responsive user interfaces through hands-on coding with ASP.NET, .NET MVC, HTML, CSS, AngularJS, and React.",
+              "Owned the technical architecture and codebase for all enterprise UI/UX implementations, standardizing the frontend framework which led to a X% increase in developer productivity and a Y% reduction in UI-related defects."
+            ]
+          },
+          {
+            "title": "Lead UI Engineer",
+            "company": "Creative Memories",
+            "location": "St. Cloud, MN - Hybrid",
+            "start_date": "April 2011",
+            "end_date": "Mar 2013",
+            "responsibilities": [
+              "Led all UX/UI initiatives, including coding in ASP.NET, .NET MVC, HTML, CSS, AngularJS, React.",
+              "Coached and mentored other developers and employees in both AGILE development processes and communications."
+            ]
+          },
+          {
+            "title": "Engineer",
+            "company": "DIGITAL RIVER",
+            "location": "Eden Prairie, MN",
+            "start_date": "Apr 2007",
+            "end_date": "Apr 2011",
+            "responsibilities": [
+              "Enhanced and furthered architecture for the proprietary CMS.",
+              "Used Java, JSP (Struts), Perl, Scripting, HTML, CSS, XML, XLST, AJAX.",
+              "Led the optimization team for the company's largest client, driving significant improvements in user engagement and conversion rates through strategic A/B and multivariate testing, coupled with in-depth user analytics."
+            ]
+          }
+        ],
+        "skills": {
+          "languages": [
+            "C#",
+            "JavaScript",
+            "TypeScript",
+            "Go (familiar)",
+            "SQL",
+            "CSS",
+            "HTML",
+            "PHP",
+            "XML",
+            "XLST",
+            "AJAX",
+            "Python",
+            "Java (familiar)",
+            "Blazor (familiar)"
+          ],
+          "frameworks": [
+            "React",
+            "Next.js",
+            "GraphQL",
+            "TypeScript",
+            "JavaScript (ES6)",
+            ".NET",
+            ".NET Core",
+            "Node.js",
+            "Angular",
+            ".NET MVC",
+            "TailwindCSS",
+            "MaterialUI",
+            "Bootstrap",
+            "SASS",
+            "LESS",
+            "Express.js",
+            "Ruby (familiar)",
+            "Jest",
+            "Mocha",
+            "Selenium",
+            "Cypress",
+            "Apollo Client"
+          ],
+          "cloud_devops": [
+            "AWS (CDK, CLI, SAM)",
+            "Kubernetes",
+            "Docker",
+            "CI/CD Pipelines",
+            "Github Actions"
+          ],
+          "databases": [
+            "SQL",
+            "Oracle",
+            "MySQL",
+            "PostgreSQL",
+            "DynamoDB",
+            "MongoDB"
+          ],
+          "development_practices": [
+            "Agile (Scrum, Kanban, SAFe)",
+            "TDD",
+            "BDD",
+            "API Design",
+            "AI developer tooling (‘Q’, Gemini, ChatGPT, Grok)",
+            "IaC",
+            "PaaS",
+            "SaaS",
+            "BDD",
+            "Pair programming",
+            "Extreme Programming"
+          ],
+          "tools_platforms": [
+            "Docker",
+            "Kubernetes",
+            "Git",
+            "Jenkins",
+            "Jira",
+            "Microsoft ADO",
+            "Webpack",
+            "Vite",
+            "VS",
+            "VS Code",
+            "AWS",
+            "NPM",
+            "Yarn",
+            "Node",
+            "NVM",
+            "GitHub Actions",
+            "Terraform"
+          ]
+        },
+        "education": [
+          {
+            "institution": "University of the Incarnate Word",
+            "location": "San Antonio, TX",
+            "start_date": "1999",
+            "end_date": "2002",
+            "gpa": "3.5",
+            "notes": "Member of Honor Society"
+          }
+        ]
+    }
+]
+}
