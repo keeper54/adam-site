@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "prebuild": "node -e \"require('fs').cpSync('src/assets','dist/assets',{ recursive: true })\"",
+    "prebuild": "node -e \"require('fs').cpSync('src/assets','public/assets',{ recursive: true })\"",
     "build": "npm run prebuild && tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
