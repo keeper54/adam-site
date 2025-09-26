@@ -3,7 +3,7 @@
 
     {
       "shortName": "Music Player",
-      "image": "/assets/portfolio/music-player.png",
+      "image": "./assets/portfolio/music-player.png",
       "longName": "MUI music player integration with iTunes",
       "url": "",
       "githubUrl": "https://github.com/keeper54/music-player",
@@ -18,7 +18,7 @@
     },
     {
       "shortName": "Creative Memories",
-      "image": "/assets/portfolio/creative-memories-screenshot.png",
+      "image": ".assets/portfolio/creative-memories-screenshot.png",
       "longName": "E-commerce and consultant sales support for Creative Memories",
       "url": "https://www.creativememories.com/",
       "githubUrl": "",

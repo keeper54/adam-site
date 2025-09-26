@@ -18,7 +18,7 @@
     },
     {
       "shortName": "Creative Memories",
-      "image": "./assets/portfolio/creative-memories-screenshot.png",
+      "image": ".assets/portfolio/creative-memories-screenshot.png",
       "longName": "E-commerce and consultant sales support for Creative Memories",
       "url": "https://www.creativememories.com/",
       "githubUrl": "",
@@ -36,7 +36,7 @@
     },
     {
       "shortName": "User Management Grid",
-      "image": "assets/portfolio/user-dashboard-list.png",
+      "image": "/assets/portfolio/user-dashboard-list.png",
       "longName": "Security Interview Coding Challenge",
       "url": "",
       "githubUrl": "",
@@ -52,7 +52,7 @@
     },
     {
       "shortName": "Hagerty Insurance",
-      "image": "assets/portfolio/hagerty-screenshot.png",
+      "image": "/assets/portfolio/hagerty-screenshot.png",
       "longName": "Hagerty Insurance Quote and Buy Flow",
       "url": "https://www.hagerty.com/",
       "githubUrl": "",
