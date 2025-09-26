@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/", // or "./" if deploying to a subpath
   plugins: [react()],
   // Pre-bundle embla and related packages to avoid "Outdated Optimize Dep" errors
   optimizeDeps: {
@@ -12,6 +13,4 @@ export default defineConfig({
       'embla-carousel-autoplay'
     ]
   },
-    base: "/", // or "./" if deploying to a subpath
-
 })
