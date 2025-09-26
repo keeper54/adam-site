@@ -11,5 +11,7 @@ export default defineConfig({
       'embla-carousel-react',
       'embla-carousel-autoplay'
     ]
-  }
+  },
+    base: "/", // or "./" if deploying to a subpath
+
 })

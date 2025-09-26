@@ -1,12 +1,25 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/adam-lovo-favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
+
+    <title>My Vite React App</title>
+
+    <!-- Favicon (optional) -->
+    <link rel="icon" type="image/icon" href="adam-logo-favicon.ico" />
+
+    <!-- Meta tags for SEO/social -->
+    <meta name="description" content="A React app built with Vite and hosted on AWS Amplify" />
+    <meta property="og:title" content="My Vite React App" />
+    <meta property="og:description" content="A React app built with Vite and hosted on AWS Amplify" />
+    <meta property="og:type" content="website" />
   </head>
   <body>
+    <!-- React root -->
     <div id="root"></div>
+
+    <!-- Vite injects your JS entrypoint here -->
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
